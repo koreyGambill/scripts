@@ -1,0 +1,5 @@
+.DS_Store
+scratchpad/
+pythonScripts/env/
+pythonScripts/__pycache__/
+.vscode
