@@ -1,5 +1,5 @@
 .DS_Store
 scratchpad/
-pythonScripts/env/
-pythonScripts/__pycache__/
+python-scripts/env/
+python-scripts/__pycache__/
 .vscode

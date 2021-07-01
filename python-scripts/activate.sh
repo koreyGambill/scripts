@@ -1,9 +1,11 @@
 #!/bin/bash
 #
 # Activates this virtual environment from any directory
-# Must be ran with source command. i.e. `source ~/path/to/repo/pythonScripts/activate`
+# Must be ran with source command. i.e. `source ~/path/to/repo/python-scripts/activate`
 # Run `deactivate` whenever you would like to deactivate the virtual environment
-
+"""
+slfklsl 
+"""
 # get path of this file
 source="${BASH_SOURCE[0]:-$0}"
 while [ -h "$source" ]; do # resolve $source until the file is no longer a symlink

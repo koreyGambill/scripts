@@ -1,5 +1,5 @@
-# bashScripts
-bashScripts is a place to put small bash utilities, and to serve as a cheatsheet and reference to best practices.
+# bash-scripts
+bash-scripts is a place to put small bash utilities, and to serve as a cheatsheet and reference to best practices.
 
 # Cheat Sheet
 
