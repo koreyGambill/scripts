@@ -9,7 +9,7 @@ It's useful to create alias's in your .zshrc or .bashrc file to the scripts.
 For example, you can save this (stuff between the ticks) into the file to create an alias called "gitsync"  
 `alias gitsync="bash ~/path/to/repo/bash-scripts/gitSync.sh"` - Calls the gitsync script from any directory.  
 Note that you can execute this in your terminal `gitsync argument1 argument2`, and the arguments get passed into the script.  
-You need to restart your terminal for the alias to be avaialable to run.  
+You need to restart your terminal for the alias to be available to run.  
 
 ## Some Useful Alias's
 
