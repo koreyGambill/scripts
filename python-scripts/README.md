@@ -4,7 +4,7 @@ python-scripts is a place to put small python utilities to run from a venv, and 
 # Mac Setup
 
 ## Set up Virtual Environment
-Change into the python-scripts directory and run `python3 -m venv ./env` which will create a virtual environment where you can do you python scripting. `If doing a larger project or you are worried about conflicting modules, I suggest putting it in a separate folder with a separately instantiated venv.  
+Change into the python-scripts directory and run `python3 -m venv ./.venv` which will create a virtual environment where you can do you python scripting. `If doing a larger project or you are worried about conflicting modules, I suggest putting it in a separate folder with a separately instantiated venv.  
 
 ## Using Python Scripts
 You can run the python scripts without being in a virtual environment, but you would have to install any necessary modules. It's recommended you install modules only in the virtual environments.  
@@ -41,6 +41,6 @@ You can do this with
 # Cheat Sheet
 
 ## Quickstart
-`source ./env/bin/activate.sh` - activates virtual environment. Do this before running scripts.   
+`source ./.venv/bin/activate.sh` - activates virtual environment. Do this before running scripts.   
 `python3 -m pip install <module>` - install modules to venv the safest way  
 `python3 <python_script>` - run python script with python3. Runs in venv if venv is activated.  

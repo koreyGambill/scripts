@@ -14,6 +14,6 @@ while [ -h "$source" ]; do # resolve $source until the file is no longer a symli
 done
 file_path="$( cd -P "$( dirname "$source" )" && pwd )"
 
-source "$file_path/env/bin/activate"
+source "$file_path/.venv/bin/activate"
 
 python3 -m pip install $1

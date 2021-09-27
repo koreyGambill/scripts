@@ -22,5 +22,5 @@ if [[ $# -eq 0 || $1 == "-h" || $1 == "--help" ]]; then
 fi
 
 targetPythonScript="$1"
-source "$file_path/env/bin/activate"
+source "$file_path/.venv/bin/activate"
 python3 "$scripts_path/$targetPythonScript" "${@:2}"
